@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Ncovi2021
+//  Covid21
 //
-//  Created by iMac on 23/06/2021.
+//  Created by iMac on 27/06/2021.
 //
 
 import UIKit
