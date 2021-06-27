@@ -12,7 +12,6 @@
 		8872FDE626881C4B003B64E2 /* Networking in Resources */ = {isa = PBXBuildFile; fileRef = 8872FDDF26881C4A003B64E2 /* Networking */; };
 		8872FDE726881C4B003B64E2 /* SupportFiles in Resources */ = {isa = PBXBuildFile; fileRef = 8872FDE026881C4A003B64E2 /* SupportFiles */; };
 		8872FDE826881C4B003B64E2 /* Config in Resources */ = {isa = PBXBuildFile; fileRef = 8872FDE126881C4A003B64E2 /* Config */; };
-		8872FDE926881C4B003B64E2 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 8872FDE226881C4B003B64E2 /* View */; };
 		8872FDEA26881C4B003B64E2 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 8872FDE326881C4B003B64E2 /* ViewModel */; };
 		8872FDEB26881C4B003B64E2 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 8872FDE426881C4B003B64E2 /* Model */; };
 /* End PBXBuildFile section */
@@ -24,7 +23,6 @@
 		8872FDDF26881C4A003B64E2 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Networking; sourceTree = "<group>"; };
 		8872FDE026881C4A003B64E2 /* SupportFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportFiles; sourceTree = "<group>"; };
 		8872FDE126881C4A003B64E2 /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
-		8872FDE226881C4B003B64E2 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
 		8872FDE326881C4B003B64E2 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
 		8872FDE426881C4B003B64E2 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,16 +57,63 @@
 		8872FDC926881AB1003B64E2 /* AtHome */ = {
 			isa = PBXGroup;
 			children = (
+				8872FDE426881C4B003B64E2 /* Model */,
+				8872FDEC26881D1B003B64E2 /* View */,
+				8872FDE326881C4B003B64E2 /* ViewModel */,
 				8872FDDE26881C4A003B64E2 /* Board */,
 				8872FDE126881C4A003B64E2 /* Config */,
-				8872FDE426881C4B003B64E2 /* Model */,
 				8872FDDF26881C4A003B64E2 /* Networking */,
 				8872FDE026881C4A003B64E2 /* SupportFiles */,
-				8872FDE226881C4B003B64E2 /* View */,
-				8872FDE326881C4B003B64E2 /* ViewModel */,
 				8872FDD326881AC0003B64E2 /* Assets.xcassets */,
 			);
 			path = AtHome;
+			sourceTree = "<group>";
+		};
+		8872FDEC26881D1B003B64E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8872FDED26881D1B003B64E2 /* Xibs */,
+				8872FDEE26881D1B003B64E2 /* Cells */,
+				8872FDF126881D1B003B64E2 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8872FDED26881D1B003B64E2 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		8872FDEE26881D1B003B64E2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8872FDEF26881D1B003B64E2 /* TvCells */,
+				8872FDF026881D1B003B64E2 /* CvCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8872FDEF26881D1B003B64E2 /* TvCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TvCells;
+			sourceTree = "<group>";
+		};
+		8872FDF026881D1B003B64E2 /* CvCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CvCells;
+			sourceTree = "<group>";
+		};
+		8872FDF126881D1B003B64E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +180,6 @@
 				8872FDD426881AC0003B64E2 /* Assets.xcassets in Resources */,
 				8872FDE626881C4B003B64E2 /* Networking in Resources */,
 				8872FDE826881C4B003B64E2 /* Config in Resources */,
-				8872FDE926881C4B003B64E2 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
